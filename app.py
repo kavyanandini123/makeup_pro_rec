@@ -52,7 +52,7 @@ model.classifier = nn.Sequential(
     nn.Dropout(0.5),
     nn.Linear(50, 4)
 )
-model.load_state_dict(torch.load('trained_model.pth'))
+model.load_state_dict(torch.load('trainedmodel.pth'))
 model.eval()
 
 # Define transformations

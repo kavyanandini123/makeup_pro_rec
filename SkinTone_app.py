@@ -52,7 +52,7 @@ def main():
     # Open and display the uploaded image
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
-        col1.image(image, caption='Uploaded Image', use_column_width=True)
+        col1.image(image, caption='Uploaded Image', use_container_width=True)
     else:
         col1.write("Please upload an image.")
 
